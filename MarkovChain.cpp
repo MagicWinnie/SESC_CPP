@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <sstream>
 #include <fstream>
 #include <time.h>
 
@@ -53,7 +52,7 @@ int main()
 
     int rand_start = rand_in_range(0, db_keys.size());
     vector<string> to_find = { db_keys[rand_start][0], db_keys[rand_start][1] };
-    
+
     cout << to_find[0] << " " << to_find[1] << " ";
     
     for (int i = 0; i < 100; i++)

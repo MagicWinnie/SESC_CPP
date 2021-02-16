@@ -63,8 +63,8 @@ int main()
 
         if (matches.size() == 0) 
         { 
-            break;
             cout << "STOPPING" << endl;
+            break;
         }
 
         string temp = matches[rand_in_range(0, matches.size())];
